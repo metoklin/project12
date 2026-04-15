@@ -22,38 +22,9 @@
         <button id="addTaskBtn">新增任務</button>
     </div>
 
-    <main class="board">
-        <!-- 未執行 -->
-        <section class="column">
-            <div class="column-header">
-                <div class="column-title">
-                    <span class="dot dot-todo"></span>
-                    未執行
-                </div>
-            </div>
-            <div id="todo-list" class="task-list"></div>
-        </section>
-
-        <!-- 執行中 -->
-        <section class="column">
-            <div class="column-header">
-                <div class="column-title">
-                    <span class="dot dot-doing"></span>
-                    執行中
-                </div>
-            </div>
-            <div id="doing-list" class="task-list"></div>
-        </section>
-
-        <!-- 已執行 -->
-        <section class="column">
-            <div class="column-header">
-                <div class="column-title">
-                    <span class="dot dot-done"></span>
-                    已執行
-                </div>
-            </div>
-            <div id="done-list" class="task-list"></div>
+    <main class="board single-board">
+        <section class="column single-column">
+            <div id="all-tasks-list" class="task-list"></div>
         </section>
     </main>
 
